@@ -1,0 +1,11 @@
+#Install mail command on CentOS/Redhat 7/6
+sudo yum install mailx 
+
+#Install mail command on Fedora 22+ and CentOS/RHEL 8
+sudo dnf install mailx 
+
+#Install mail command on Ubuntu/Debian/LinuxMint
+sudo apt-get install mailutils 
+
+
+echo "Message Body" | mail -s "Message Subject" receiver@example.com  
